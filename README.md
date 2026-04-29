@@ -12,9 +12,9 @@ This code implements a Monte Carlo model for photon transport in a homogeneous n
 - Total internal reflection is included at the liquid–air interface
 
 ## Geometry
-- Rectangular cuvette defined by \([0, x] \times [0, y] \times [0, z]\)
+- Rectangular cuvette defined by (0,x_length), (0,y_length), (0,z_length)
 - Uniform Cartesian cubic voxel grid
-- Output stored as \(q_{abs}(x,y,z)\)
+- Output stored as heating rate q_{abs}(x,y,z) in mW/cm^3
 
 ## Beam definition
 Two beam profiles are supported:
@@ -23,8 +23,7 @@ Two beam profiles are supported:
 The beam propagates along the +x direction.
 
 ## Output graph
-- 3D volumetric heating rate \(q_{abs}\) (mW/cm³)
-- 2D slices through the beam center
+- 2D slices of heating rate q_{abs} (mW/cm³)
 - Histogram of scattering events before absorption
 
 ## Usage
