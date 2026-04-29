@@ -2,7 +2,7 @@
 Monte Carlo simulation of photon transport in nanoparticle suspensions, including absorption, scattering, and boundary reflections. Computes volumetric heating rates in a cuvette geometry with Gaussian or circular beam injection.
 
 ## Overview
-This code implements a Monte Carlo model for photon transport in a homogeneous nanoparticle suspension. Photon packets are propagated through a finite cuvette volume and undergo absorption, scattering, and Fresnel reflection/transmission at boundaries. The simulation outputs spatially resolved absorption events, which are converted into volumetric heating rates.
+This MATLAB code implements a Monte Carlo model for photon transport in a homogeneous nanoparticle suspension. Photon packets are propagated through a finite cuvette volume and undergo absorption, scattering, and Fresnel reflection/transmission at boundaries. The simulation outputs spatially resolved absorption events, which are converted into volumetric heating rates.
 
 ## Physical model
 - Photon free paths are sampled from an exponential distribution with mean free path 1/(extinction coefficient)
